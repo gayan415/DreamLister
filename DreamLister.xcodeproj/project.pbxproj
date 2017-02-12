@@ -13,6 +13,9 @@
 		A407ECEF1E466B5E002A4650 /* DreamLister.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A407ECED1E466B5E002A4650 /* DreamLister.xcdatamodeld */; };
 		A407ECF11E466B5E002A4650 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A407ECF01E466B5E002A4650 /* Assets.xcassets */; };
 		A407ECF41E466B5E002A4650 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A407ECF21E466B5E002A4650 /* LaunchScreen.storyboard */; };
+		A407ED1E1E47828A002A4650 /* tesla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A407ED1D1E47828A002A4650 /* tesla.jpg */; };
+		A407ED211E478317002A4650 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A407ED201E478317002A4650 /* MaterialView.swift */; };
+		A407ED231E47C87C002A4650 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A407ED221E47C87C002A4650 /* ItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		A407ECF01E466B5E002A4650 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A407ECF31E466B5E002A4650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A407ECF51E466B5E002A4650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A407ED1D1E47828A002A4650 /* tesla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tesla.jpg; sourceTree = "<group>"; };
+		A407ED201E478317002A4650 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		A407ED221E47C87C002A4650 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +46,7 @@
 		A407ECDA1E466B5E002A4650 = {
 			isa = PBXGroup;
 			children = (
+				A407ED1F1E4782C1002A4650 /* View */,
 				A407ECE51E466B5E002A4650 /* DreamLister */,
 				A407ECE41E466B5E002A4650 /* Products */,
 			);
@@ -59,12 +66,22 @@
 				A407ECE61E466B5E002A4650 /* AppDelegate.swift */,
 				A407ECE81E466B5E002A4650 /* MainVC.swift */,
 				A407ECEA1E466B5E002A4650 /* Main.storyboard */,
+				A407ED1D1E47828A002A4650 /* tesla.jpg */,
 				A407ECF01E466B5E002A4650 /* Assets.xcassets */,
 				A407ECF21E466B5E002A4650 /* LaunchScreen.storyboard */,
 				A407ECF51E466B5E002A4650 /* Info.plist */,
 				A407ECED1E466B5E002A4650 /* DreamLister.xcdatamodeld */,
 			);
 			path = DreamLister;
+			sourceTree = "<group>";
+		};
+		A407ED1F1E4782C1002A4650 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A407ED201E478317002A4650 /* MaterialView.swift */,
+				A407ED221E47C87C002A4650 /* ItemCell.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A407ECF41E466B5E002A4650 /* LaunchScreen.storyboard in Resources */,
+				A407ED1E1E47828A002A4650 /* tesla.jpg in Resources */,
 				A407ECF11E466B5E002A4650 /* Assets.xcassets in Resources */,
 				A407ECEC1E466B5E002A4650 /* Main.storyboard in Resources */,
 			);
@@ -143,6 +161,8 @@
 				A407ECE91E466B5E002A4650 /* MainVC.swift in Sources */,
 				A407ECE71E466B5E002A4650 /* AppDelegate.swift in Sources */,
 				A407ECEF1E466B5E002A4650 /* DreamLister.xcdatamodeld in Sources */,
+				A407ED211E478317002A4650 /* MaterialView.swift in Sources */,
+				A407ED231E47C87C002A4650 /* ItemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
